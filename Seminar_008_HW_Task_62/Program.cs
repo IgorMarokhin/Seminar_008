@@ -23,7 +23,7 @@ void GetSpiralArray(int[,] array)
         steps--;
         if (steps == 0)
         {
-            steps = array.GetLength(0) - 1 - turn/2;
+            steps = array.GetLength(0) - 1 - turn / 2;
             int temp = changeIndexRow;
             changeIndexRow = changeIndexColumn;
             changeIndexColumn = -temp;
