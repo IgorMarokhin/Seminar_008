@@ -42,7 +42,7 @@ void PrintArray (int [,] arr)
     Console.WriteLine (); 
     } 
 } 
- 
+
 int[,] transposition(int[,] matrix) 
 { 
     int[,] res = new int[matrix.GetLength(1),matrix.GetLength(0)]; 
